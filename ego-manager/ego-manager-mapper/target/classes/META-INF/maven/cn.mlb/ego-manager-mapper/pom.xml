@@ -6,4 +6,33 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>ego-manager-mapper</artifactId>
+  
+  <dependencies>
+  	<dependency>
+	  	<groupId>cn.mlb</groupId>
+	    <artifactId>ego-manager-pojo</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	<!-- Mybatis -->
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis-spring</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>com.github.miemiedev</groupId>
+		<artifactId>mybatis-paginator</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>com.github.pagehelper</groupId>
+		<artifactId>pagehelper</artifactId>
+	</dependency>
+  	
+  </dependencies>
+  
+  
 </project>
