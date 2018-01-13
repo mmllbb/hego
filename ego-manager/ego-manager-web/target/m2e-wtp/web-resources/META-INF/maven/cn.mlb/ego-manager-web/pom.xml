@@ -7,4 +7,47 @@
   </parent>
   <artifactId>ego-manager-web</artifactId>
   <packaging>war</packaging>
+  
+  <dependencies>
+		<dependency>
+			<groupId>cn.mlb</groupId>
+			<artifactId>ego-manager-pojo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.mlb</groupId>
+			<artifactId>ego-manager-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+         
+		<!-- 测试分页插件 -->
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<!-- Jackson Json处理工具包 -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+	</dependencies>
+  
+  
 </project>

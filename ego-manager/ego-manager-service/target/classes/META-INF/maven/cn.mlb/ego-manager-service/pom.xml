@@ -6,4 +6,38 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>ego-manager-service</artifactId>
+  
+  <dependencies>
+		<dependency>
+			<groupId>cn.mlb</groupId>
+			<artifactId>ego-manager-pojo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.mlb</groupId>
+			<artifactId>ego-manager-mapper</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+         
+
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+		</dependency>
+	</dependencies>
+  
+  
 </project>
