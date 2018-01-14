@@ -1,2 +1,4 @@
-cn\mlb\service\ItemService.class
+cn\mlb\service\impl\ItemCatServiceImpl.class
 cn\mlb\service\impl\ItemServiceImpl.class
+cn\mlb\service\ItemCatService.class
+cn\mlb\service\ItemService.class

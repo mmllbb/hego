@@ -18,7 +18,11 @@
 			<artifactId>ego-manager-mapper</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-         
+         <dependency>
+			<groupId>cn.mlb</groupId>
+			<artifactId>ego-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- Spring -->
 		<dependency>
